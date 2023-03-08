@@ -45,7 +45,7 @@ def day_handler(day, type_week):
     conn = psycopg2.connect(
         dbname="simple_bot",
         user="postgres",
-        password="m1slovk1",
+        password="",
         host="localhost",
         port="5432"
     )
